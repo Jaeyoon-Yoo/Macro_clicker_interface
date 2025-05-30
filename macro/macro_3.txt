@@ -1,0 +1,7 @@
+click -371 491
+press_hotkey ctrl a
+press_hotkey ctrl c
+# need time to copy to clipboard
+wait 1
+string_from clipboard clip_sub
+save_txt save_name w clip_sub

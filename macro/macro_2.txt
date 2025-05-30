@@ -1,0 +1,14 @@
+new_var single sub 10
+change_type sub int
+new_var single sub2 1
+change_type sub2 int
+compare_comp sub sub2 comp_sub
+
+condition loop_start cp1 comp_sub
+storage all sub2
+calculate_comp sub2 + 1
+compare_comp sub sub2 comp_sub
+check_condi
+storage all
+wait 1
+condition loop_end cp1
